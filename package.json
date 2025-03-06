@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.7.0",
+    "firebase": "^11.0.1",
+    "nodemailer": "^6.10.0",
+    "nuxt": "^3.13.2",
+    "pinia": "^2.2.6",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vue3-google-map": "^0.21.0",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@nuxt/ui": "^2.18.7",
+    "@types/nodemailer": "^6.4.17"
+  }
+}
